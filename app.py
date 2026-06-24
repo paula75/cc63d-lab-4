@@ -336,7 +336,7 @@ def create_incident():
         app.logger.warning(f"No on-call found for service {service['name']}")
 
     db.commit()
-    return jsonify({"id": incident_id, "notification": notification}), 201
+    return jsonify({"id": incident_id, "notification": notification}), 400
 
 
 @app.route("/incidents/<int:incident_id>", methods=["GET"])
