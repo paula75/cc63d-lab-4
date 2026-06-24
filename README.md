@@ -85,3 +85,4 @@ La fixture del `conftest.py` da a cada prueba una base de datos SQLite **tempora
 - El ejemplo completo en Go: [`cc63d-ci-demo`](https://github.com/lnds/cc63d-ci-demo) y la *anatomía de un workflow* de la teoría.
 - GitHub Actions — `docs.github.com/actions` (`jobs`, `steps`, `run`, `actions/setup-python`).
 - pytest — `docs.pytest.org`.
+  
